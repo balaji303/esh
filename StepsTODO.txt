@@ -1,0 +1,5 @@
+sudo apt update -> Update all dependencies
+./manage -s -> Runs the .scripts/setup
+cd examples/emulation/armv7M-32 -> change dir to one of the examples
+make -> compiles the code
+Check Learn.png image -> The SP points to first address inside Vector table  and the PC points to reset handler which is mapped by the Vector table
